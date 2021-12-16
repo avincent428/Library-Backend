@@ -1,0 +1,64 @@
+{
+    "title": "The Giant Horse of Oz",
+    "authors": [
+        "Ruth Plumly Thompson",
+        "Lyman Frank Baum",
+        "John Rea Neill"
+    ],
+    "genre": "Juvenile Fiction",
+    "description": "The tiny kingdom of the Ozure Isles, perched on five islands in Lake Orizon, surrounded by high mountains in a remote region of Munchkin Land, has little contact with the outside world—of Oz. The evil witch Mombi has turned her malice in the Ozure direction. After kidnapping Queen Orin, Mombi has left a fire-breathing lake monster named Quiberon in Lake Orizon to keep the natives prisoner.[1] Even after Mombi was vanquished, Quiberon remains.",
+    "published": 1928,
+    "format": "book",
+    "isbn": 9780345323590,
+    "location": "Young Adult",
+    "image": "http://books.google.com/books/content?id=lzQjcaFVpfcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+    "available": true
+},
+{
+    "title": "The Lost Books Visual Edition",
+    "authors": "Ted Dekker",
+    "genre": "Fiction",
+    "description": "The tiny kingdom of the Ozure Isles, perched on five islands in Lake Orizon, surrounded by high mountains in a remote region of Munchkin Land, has little contact with the outside world—of Oz. The evil witch Mombi has turned her malice in the Ozure direction. After kidnapping Queen Orin, Mombi has left a fire-breathing lake monster named Quiberon in Lake Orizon to keep the natives prisoner.[1] Even after Mombi was vanquished, Quiberon remains.",
+    "published": 2000,
+    "format": "book",
+    "isbn": 12345677,
+    "location": "Fiction",
+    "image": "http://books.google.com/books/content?id=KL2ONx6LTV0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+    "available": false
+},
+{
+    "title": "Foundation",
+    "authors": "Isaac Asimov",
+    "genre": "Science Fiction",
+    "description": "Scientists are needed to help the galaxy. Stuff happens.",
+    "published": 1965,
+    "format": "book",
+    "isbn": 5237529374895,
+    "location": "Fiction",
+    "image": "http://books.google.com/books/content?id=KL2ONx6LTV0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+    "available": true
+},
+{
+    "title": "Wundersmith",
+    "authors": "Jessica Townsend",
+    "genre": "Fantasy",
+    "description": "Longlisted for the Australian Indie Book Award for Best Children's Book 2019 A Barnes & Noble Best New Middle-Grade Book The Librarians' Choice Favourite November 2018 An Amazon Editor’s Pick for Top 20 Best Children's Books of 2018.",
+    "published": 2000,
+    "format": "book",
+    "isbn": 23894729818,
+    "location": "Fiction",
+    "image": "http://books.google.com/books/content?id=3nqhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "available": false
+},
+{
+    "title": "Girl Alone",
+    "authors": "Blake Pierce",
+    "genre": "Suspense",
+    "description": "FBI Agent Ella Dark has studied serial killers from the time she could read, devastated by the murder of her own sister. With her photographic memory, she has obtained an encyclopedic knowledge of every serial killer, every victim and every case. But when a serial killer strikes in the swamps of Louisiana, Ella soon comes to learn that the real thing is like nothing she ever expected.",
+    "published": 2007,
+    "format": "book",
+    "isbn": 8975448932,
+    "location": "Fiction",
+    "image": "http://books.google.com/books/content?id=Gh0JEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "available": false
+}
