@@ -9,4 +9,21 @@ BookRouter.get('/', (req, res, next) => {
         .catch(next)
 })
 
+BookRouter.post('/post', (req, res, next) => {
+    Book.create(req.body)
+    .then(() => res.redirect("/books"))
+    .catch(next)
+})
+
+BookRouter.put('/:id', (req, res, next) => {
+    Book.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
+        .then(() => res.redirect(303, "/books"))
+        .catch(next)
+})
+
+BookRouter.delete('/:id', (req, res, next) => {
+    Book.findOneAndDelete({_id: req.params.id})
+        .then(() => res.redirect(303, "/books"))
+})
+
 module.exports = BookRouter
