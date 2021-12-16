@@ -10,7 +10,7 @@
     "published": 1928,
     "format": "book",
     "isbn": 9780345323590,
-    "location": "Young Adult",
+    "location": "E10",
     "image": "http://books.google.com/books/content?id=lzQjcaFVpfcC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
     "available": true
 },
@@ -22,7 +22,7 @@
     "published": 2000,
     "format": "book",
     "isbn": 12345677,
-    "location": "Fiction",
+    "location": "F6",
     "image": "http://books.google.com/books/content?id=KL2ONx6LTV0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
     "available": false
 },
@@ -34,7 +34,7 @@
     "published": 1965,
     "format": "book",
     "isbn": 5237529374895,
-    "location": "Fiction",
+    "location": "G12",
     "image": "http://books.google.com/books/content?id=KL2ONx6LTV0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
     "available": true
 },
@@ -46,7 +46,7 @@
     "published": 2000,
     "format": "book",
     "isbn": 23894729818,
-    "location": "Fiction",
+    "location": "D4",
     "image": "http://books.google.com/books/content?id=3nqhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "available": false
 },
@@ -58,7 +58,7 @@
     "published": 2007,
     "format": "book",
     "isbn": 8975448932,
-    "location": "Fiction",
+    "location": "I7",
     "image": "http://books.google.com/books/content?id=Gh0JEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "available": false
 }
