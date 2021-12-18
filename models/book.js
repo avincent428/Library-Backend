@@ -1,29 +1,29 @@
-const mongoose = require('../db/connection')
+const mongoose = require("../db/connection");
 
 const BookSchema = new mongoose.Schema(
-    {
-      title: {
-          type: String,
-          required: true,
-        },
-      genre: String,
-      isbn: Number,
-      format: String,
-      availability: {
-          type: Boolean,
-          default: false,
-        },
-      description: String,
-      Published: Number,
-      copyright: Number,
-      authors: [String],
-      libraryLocation: String,
-      shoppingLink: String,
-      image: String
+  {
+    title: {
+      type: String,
+      required: true,
     },
-    { timestamps: true}
+    genre: String,
+    isbn: Number,
+    format: String,
+    availability: {
+      type: Boolean,
+      default: false,
+    },
+    description: String,
+    Published: Number,
+    copyright: Number,
+    authors: [String],
+    libraryLocation: String,
+    shoppingLink: String,
+    image: String,
+  },
+  { timestamps: true }
 );
 
-const Book = mongoose.model('Book', BookSchema);
+const Book = mongoose.model("Book", BookSchema);
 
-module.exports = Book
+module.exports = Book;
