@@ -16,7 +16,7 @@ const BookSchema = new mongoose.Schema(
       description: String,
       Published: Number,
       copyright: Number,
-      author: [String],
+      authors: [String],
       libraryLocation: String,
       shoppingLink: String,
       image: String
