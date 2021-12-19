@@ -9,11 +9,17 @@ BookRouter.get('/', (req, res, next) => {
         .catch(next)
 })
 
-BookRouter.get('/', (req, res, next) => {
-    Book.find(req.query)
+BookRouter.get('/:id', (req, res, next) => {
+    Book.findById({_id: req.params.id})
         .then(books => res.json(books))
         .catch(next)
 })
+
+// BookRouter.get('/', (req, res, next) => {
+//     Book.find(req.query)
+//         .then(books => res.json(books))
+//         .catch(next)
+// })
 
 BookRouter.post('/post', (req, res, next) => {
     Book.create(req.body)
