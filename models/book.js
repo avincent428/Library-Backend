@@ -9,7 +9,7 @@ const BookSchema = new mongoose.Schema(
     genre: String,
     isbn: Number,
     format: String,
-    availability: {
+    available: {
       type: Boolean,
       default: false,
     },
