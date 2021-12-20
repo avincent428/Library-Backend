@@ -7,7 +7,7 @@ const mongoURI = process.env.NODE_ENV === 'production'
     : 'mongodb://localhost/' + dbName
 
 mongoose.connect(mongoURI)
-    .then(instance => console.log("I'm connected to DB: " + instance.connections[0].name))
+    .then(instance => console.log("I am connected to DB: " + instance.connections[0].name))
     .catch(err => console.log("My connection failed: ", err))
 
 module.exports = mongoose
