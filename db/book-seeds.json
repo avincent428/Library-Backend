@@ -1,13 +1,6 @@
-{    
-    "_links": {
-        "base": "http://localhost:8000/books",
-        "context": "",
-        "next": "/rest/api/books/ds/content/page?limit=5$start=5",
-        "self": "http://localhost:8000/books/rest/api/space/ds/content/page"
-    },
-    "limit": 5,
-    "results": [
+[
     {
+        "id": 1,
         "title": "The Eye of the World",
         "genre": "Fantasy",
         "authors": ["Robert Jordan"],
@@ -20,6 +13,7 @@
         "available": true
     },
     {
+        "id": 2,
         "title": "The Library at Mount Char",
         "authors": ["Scott Hawkins"],
         "genre": "Fiction",
@@ -32,6 +26,7 @@
         "available": false
     },
     {
+        "id": 3,
         "title": "Foundation",
         "authors": ["Isaac Asimov"],
         "genre": "Science Fiction",
@@ -44,6 +39,7 @@
         "available": true
     },
     {
+        "id": 4, 
         "title": "Hyperion",
         "authors": ["Dan Simmons"],
         "genre": "Science Fiction",
@@ -56,6 +52,7 @@
         "available": true
     },
     {
+        "id": 5,
         "title": "Mistborn",
         "authors": ["Brandon Sanderson"],
         "genre": "Fantasy",
@@ -68,6 +65,7 @@
         "available": false
     },
     {
+        "id": 6,
         "title": "Proofiness",
         "authors": ["Charles Seife"],
         "genre": "Non-Fiction",
@@ -80,6 +78,7 @@
         "available": false
     },
     {
+        "id": 7,
         "title": "Slaughterhouse-Five",
         "authors": ["Kurt Vonnegut"],
         "genre": "Science Fiction",
@@ -92,6 +91,7 @@
         "available": true
     },
     {
+        "id": 8,
         "title": "Marvel 1602",
         "authors": ["Neil Gaiman"],
         "genre": "Graphic Novel",
@@ -104,6 +104,7 @@
         "available": false
     },
     {
+        "id": 9,
         "title": "The Signal and the Noise",
         "authors": ["Nate Silver"],
         "genre": "Non-Fiction",
@@ -116,6 +117,7 @@
         "available": true
     },
     {
+        "id": 10,
         "title": "The House of the Scorpion",
         "authors": ["Nancy Farmer"],
         "genre": "Science Fiction",
@@ -128,6 +130,7 @@
         "available": true
     },
     {
+        "id": 11,
         "title": "Dragon Weather",
         "genre": "Fantasy",
         "authors": ["Lawrence Watt-Evans"],
@@ -140,6 +143,7 @@
         "available": false
     },
     {
+        "id": 12,
         "title": "The Sandman Vol. 1: Preludes & Nocturnes",
         "authors": ["Neil Gaiman"],
         "genre": "Graphic Novel",
@@ -152,6 +156,7 @@
         "available": false
     },
     {
+        "id": 13,
         "title": "The Further Adventures of Sherlock Holmes: The Ripper Legacy",
         "authors": ["David Stuart Davies"],
         "genre": "Mystery",
@@ -164,6 +169,7 @@
         "available": true
     },
     {
+        "id": 14,
         "title": "Sapiens",
         "authors": ["Yuval Noah Harari"],
         "genre": "Non-Fiction",
@@ -176,6 +182,7 @@
         "available": true
     },
     {
+        "id": 15,
         "title": "It's a Magical World",
         "authors": ["Bill Watterson"],
         "genre": "Comic Strip",
@@ -188,6 +195,7 @@
         "available": true
     },
     {
+        "id": 16,
         "title": "The Scarlet Letter",
         "authors": ["Nathaniel Hawthorne"],
         "genre": "Fiction",
@@ -200,6 +208,7 @@
         "available": false
     },
     {
+        "id": 17,
         "title": "The Fellowship of the Ring",
         "authors": ["J. R. R. Tolkien"],
         "genre": "Fantasy",
@@ -212,6 +221,7 @@
         "available": true
     },
     {
+        "id": 18,
         "title": "The Dwarves",
         "authors": ["Markus Heitz"],
         "genre": "Fantasy",
@@ -224,6 +234,7 @@
         "available": true
     },
     {
+        "id": 19,
         "title": "House of Cards",
         "authors": ["Michael Dobbs"],
         "genre": "Fiction",
@@ -236,6 +247,7 @@
         "available": false
     },
     {
+        "id": 20,
         "title": "Flowers for Algernon",
         "authors": ["Daniel Keyes"],
         "genre": "Fiction",
@@ -247,4 +259,3 @@
         "image": "http://books.google.com/books/content?id=_oG_iTxP1pIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "available": false
     }]
-}
