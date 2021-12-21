@@ -22,7 +22,7 @@ BookRouter.get('/:id', (req, res, next) => {
 //         .catch(next)
 // })
 
-BookRouter.post('/post', (req, res, next) => {
+BookRouter.post('/', (req, res, next) => {
     Book.create(req.body)
     .then(() => res.redirect("/books"))
     .catch(next)
