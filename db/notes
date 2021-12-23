@@ -1,0 +1,8 @@
+// {    
+//     "_links": {
+//         "base": "http://localhost:8000/books",
+//         "context": "",
+//         "next": "http://localhost:8000/books/?page=2",
+//         "prev": null
+//     },
+//     "results": 
